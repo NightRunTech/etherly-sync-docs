@@ -131,13 +131,13 @@ For a document in a system DeskBoy doesn't read, e.g. e-timologio, choose ["Issu
 ## Filtering & Search
 
 In **Bookings** you can filter checkouts by:
-- **Status** (under “More filters”): “Failed”, “Skipped”, “Cancelled”. Cancelled bookings are hidden by default.
+- **Status** (under “More filters”): “Normal”, “Failed”, “Skipped”, “Cancelled”. Each box shows or hides its category; cancelled bookings are hidden by default. To see only cancelled bookings, leave only “Cancelled” checked.
 - **Property** — a single property, a [property group](/en/guides/property-groups) or a connection
 - **Date range** (checkout date)
 - **Skipped** (yes/no)
 
 The **Property** filter works as in every list: checkbox selection per property or per [group](/en/guides/property-groups#groups-on-other-screens), with search, and with nothing selected you see all properties. The selection is remembered and also applies on the [Declarations](/en/guides/declarations) page, so you don't have to pick it twice.
 
-Cancelled bookings are hidden from the list by default, so you only see the ones that need action. Bring them back from **More filters → Status → All**. Your choice is remembered across sessions.
+Cancelled bookings are hidden from the list by default, so you only see the ones that need action. Bring them back by checking “Cancelled” under **More filters → Status**. Your choice is remembered across sessions.
 
 In the **Departures today** tab, properties are shown grouped, provided you have created groups; properties not assigned to any group go to the "Ungrouped" group at the end. The **Upcoming**, **History** and **All** tabs show bookings in a single chronological order.
