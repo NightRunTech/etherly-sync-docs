@@ -18,7 +18,15 @@ description: "Solutions for the most common issues with DeskBoy — from initial
   </Accordion>
 
   <Accordion title="My Hosthub API key has changed. How do I update it?">
-    Go to **Settings** → **Integrations**. Find the Hosthub connection and update the API key. Sync resumes normally without any data loss.
+    Go to **Settings** → **Integrations**, find the Hosthub connection and update the API key. If the new key belongs to the same Hosthub account, syncing continues normally and nothing is lost. If it belongs to another account, bookings with documents, climate fee receipts or AADE declarations stay for your history, and the new account's bookings are added.
+  </Accordion>
+
+  <Accordion title="What happens if I delete a PMS connection and add it again? Will bookings appear twice? Will I lose the documents I have already issued?">
+    No. Bookings that already have documents are not deleted with the connection. When you reconnect the same account, they are linked to the new connection automatically, together with their documents and properties, and do not appear a second time. Bookings without documents come back with the sync.
+
+    <Note>
+      If a booking still appears twice, for example because another PMS also brings it in, and one row already has documents, the other goes to manual review and no second document is issued. A second document for the same stay can only be corrected in myDATA with a credit note. Check which row is the valid one.
+    </Note>
   </Accordion>
 
   <Accordion title="Can I have multiple Elorus organizations under the same account?">
