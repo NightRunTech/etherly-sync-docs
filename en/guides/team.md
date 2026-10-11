@@ -1,6 +1,6 @@
 ---
 title: "User Management"
-description: "The Owner, Admin, User and Accountant roles and what each can do, how you invite a new user from “Users” and who assigns which role, what to do with an expired invitation, how you remove a user, and what the activity history records."
+description: "The Owner, Admin, User and Accountant roles and what each can do, how you invite a new user from “Users” and who assigns which role, what to do with an expired invitation, how you remove a user, what the activity history records, and who can export all account data."
 ---
 
 # User Management
@@ -23,6 +23,7 @@ DeskBoy supports **multiple users** per account. Each user has a role that defin
 |--------|:---:|:---:|:---:|:---:|
 | View bookings, documents and declarations | ✅ | ✅ | ✅ | ✅ |
 | Exports | ✅ | ✅ | ✅ | ✅ |
+| Export all account data | ✅ | ❌ | ❌ | ❌ |
 | Sync bookings | ✅ | ✅ | ✅ | ❌ |
 | Issue documents | ✅ | ✅ | ✅ | ❌ |
 | Submit AADE declarations | ✅ | ✅ | ✅ | ❌ |
