@@ -1,6 +1,6 @@
 ---
 title: 'Damage deposits'
-description: "What a damage deposit is, how the hold on the guest's card works and why it costs less than a charge and a refund, connecting Stripe from Connections, a new request from the booking, sending by email, copying the link and opening on a tablet, the deposit after Online Check-In, what the guest sees and approves, automatic release and the countdown, hold renewals for stays longer than 7 days, pausing to check for damage, charging for damage and releasing the remainder, the damage document, booking cancellation, notifications, who can do what, disconnecting Stripe, and which plans include it."
+description: "What a damage deposit is, how the hold on the guest's card works and why it costs less than a charge and a refund, connecting Stripe from Connections, a new request from the booking, sending by email, “Copy guest link”, cancelling a request, the deposit after Online Check-In, what the guest sees and approves, automatic release, hold renewals for stays longer than 7 days, pausing to check for damage, charging for damage and releasing the remainder, releasing without a charge, the damage document, checking a pending operation, booking cancellation, notifications, who can do what, disconnecting Stripe, and which plans include it."
 ---
 
 ## What a damage deposit is
@@ -23,7 +23,7 @@ This applies to Stripe's standard pricing. If you have a custom pricing agreemen
 
 Deposits are charged through your own Stripe account, so the money goes straight to you.
 
-1. Open **Settings → Connections** and, on the **Stripe — Damage deposits** card, press **Connect**.
+1. Open **Settings → Connections** and, on the **Stripe — Charges and holds** card, press **Connect**.
 2. Complete your business details in Stripe.
 3. When you are back in DeskBoy, the **Configure** dialog opens with the connection status. Once it is complete, the **Stripe** row under **Connected Applications** shows **Connected**; if not yet, press **Refresh status** in the same dialog.
 
@@ -39,7 +39,9 @@ The guest enters their card only in Stripe's secure payment form. DeskBoy does n
 
 Open the booking in **Bookings** and, in the **Customer** column, press **Damage deposit**. The form opens with the booking already selected; you only enter the amount.
 
-Each booking has one deposit. New requests are made for bookings that have not been cancelled.
+The request sends nothing by itself: the card form goes out in the next step, from the deposit's details, with **Send by email** or **Copy guest link**. The hold happens only through this DeskBoy form, not through Airbnb, Booking or any other channel.
+
+Each booking has one deposit. New requests are made for bookings that are not cancelled and whose check-out has not passed.
 
 ---
 
@@ -49,11 +51,16 @@ From the deposit's details:
 
 - **Send by email:** the link goes to the booking's email. If you changed the guest's email on the booking, it goes to the new one.
 - **Copy guest link:** to send it in a message through the booking channel.
-- **Open on tablet:** opens the guest page, so the guest can approve on the front-desk device.
 
-The link is personal to the booking. Each new link replaces the previous one, which stops working.
+The link is personal to the booking and stays the same until the deposit is completed.
 
 If you use **Online Check-In**, the deposit form appears to the guest as soon as they complete check-in.
+
+---
+
+## Cancelling a request
+
+If the guest has not approved the deposit yet, press **Cancel request** in the details. The guest's link stops working, and you can request a new deposit from the booking.
 
 ---
 
@@ -65,27 +72,35 @@ The guest sees the property, the amount, the automatic release date and the depo
 
 ## Automatic release
 
-In the deposit's details you see the **automatic release** date and a countdown. At that moment DeskBoy requests the release of the amount and the guest is notified by email. The guest's bank decides when the amount is available on their card again.
+In the deposit's details you see the **automatic release** date. At that moment DeskBoy requests the release of the amount and the guest is notified by email. The guest's bank decides when the amount is available on their card again.
 
 ### Hold renewals
 
-A bank keeps a hold for a limited time, usually up to 7 days, and less for some cards. The exact expiry is shown as **Bank hold expiry**. When the deposit needs to last longer, for example for longer stays, DeskBoy renews the hold automatically before it expires, for the same amount, until the automatic release date, as the guest has accepted. During a renewal two holds may appear on their card for a while. If the hold cannot be renewed automatically, for example because the bank asks for a new approval, the guest receives an email to approve it again.
+A bank keeps a hold for a limited time, usually up to 7 days, and less for some cards. The exact expiry is shown as **Bank hold expiry**. When the deposit needs to last longer, for example for longer stays, DeskBoy renews the hold automatically before it expires, for the same amount, until the automatic release date, as the guest has accepted. During a renewal two holds may appear on their card for a while. If the hold cannot be renewed automatically, for example because the guest's bank asks the guest to confirm again (3D Secure), you receive an email and the deposit appears under **Action required**. The current hold is valid until it expires, so until then you can charge for any damage done to the property. To extend the hold until the automatic release date, send the guest the form from the deposit's details, with **Send by email** or with **Copy guest link** to send it however you prefer.
 
 ---
 
 ## Pausing to check for damage
 
-If you need time to check for possible damage, press **Pause automatic release**. The countdown stops and the amount stays on hold for as long as the bank hold lasts. Pausing does not extend the bank hold expiry, because the bank sets it.
+If you need time to check for possible damage, press **Pause automatic release**. Automatic release stops and the amount stays on hold for as long as the bank hold lasts. Pausing does not extend the bank hold expiry, because the bank sets it.
 
 ---
 
 ## Charging for damage
 
-Press **Charge for damage**, enter the amount, up to the deposit amount, and the **reason**. The guest sees the reason in the email they receive about the charge. Only one charge can be made from each hold; the remaining amount is released automatically.
+Press **Charge for damage**, enter the amount, up to the deposit amount, and the **reason**. The amount you charge is final and includes VAT and any other taxes; the damage document is issued for this amount. The guest sees the reason in the email they receive about the charge. Only one charge can be made from each hold; the remaining amount is released automatically.
+
+If you don't need to wait for the automatic release, press **Release** in the deposit's details. The amount is released without a charge and the guest is notified by email.
 
 ### Damage document
 
 Issue the document in your invoicing provider and register its details in the deposit's details. The **No document registered** counter on the Damage deposits page shows the charges that do not have a document yet.
+
+---
+
+## Pending operation
+
+Rarely, Stripe takes a while to confirm a charge or a release, and the deposit shows **Review pending operation**. Press **Check Stripe** to look up the outcome. If the check finds no outcome, the owner or an admin can, after checking the deposit in the Stripe Dashboard, press **Mark as failed** with a reason, so that new actions are allowed.
 
 ---
 
@@ -97,7 +112,7 @@ If the booking is cancelled, a request the guest has not approved yet is cancell
 
 ## Notifications
 
-The owner and the admins receive an email when a deposit needs action, for example when the guest disputes a charge with their bank. On the Damage deposits page, the **Action required** counter shows the deposits waiting for you.
+When the guest approves the deposit, for the first time or again, you receive an email that the amount has been held. The owner and the admins receive an email when a deposit needs action, for example when the guest disputes a charge with their bank. On the Damage deposits page, the **Action required** counter shows the deposits waiting for you.
 
 ---
 
@@ -106,7 +121,7 @@ The owner and the admins receive an email when a deposit needs action, for examp
 | Role | Can |
 |---|---|
 | Owner, Admin | Everything: connect Stripe, requests, sending, pause, charge, release, document |
-| User | View, new request, send the link, cancel before the guest approves |
+| User | View, new request, send the link, cancel the request before the guest approves |
 | Accountant | View |
 
 Charging, releasing and pausing are limited to the owner or an admin, because they move the guest's money.
