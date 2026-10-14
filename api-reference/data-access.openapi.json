@@ -1806,7 +1806,7 @@
           },
           "provider": {
             "type": "string",
-            "description": "Invoicing provider (ELORUS, KISSBILL) — open set"
+            "description": "Invoicing provider (e.g. ELORUS) — open set"
           },
           "providerDocumentId": {
             "type": "string"

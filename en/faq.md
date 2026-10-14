@@ -131,13 +131,13 @@ description: "Solutions for the most common issues with DeskBoy — from initial
   </Accordion>
 
   <Accordion title="What happens if the fee amounts change by law?">
-    The statutory amounts are kept up to date by DeskBoy. The ΤΑΚΚ tax for each amount band is matched automatically per organisation under **Settings → Tax details** with the tax codes you created in Elorus. If the law changes, update the tax codes in Elorus; the app checks that their amount matches the statutory one (see [Climate Resilience Fee](/en/guides/climate-fee)).
+    The statutory amounts are kept up to date by DeskBoy. The ΤΑΚΚ tax is set per organisation, for each AADE category and period, from a list holding only the taxes with the statutory amount; you see and change it under **Settings → Tax details**. If the law changes, update the tax codes in Elorus; the app checks that their amount matches the statutory one (see [Climate Resilience Fee](/en/guides/climate-fee)).
   </Accordion>
 
   <Accordion title="I saw that a booking needs setup for the ΤΑΚΚ. What does it mean?">
     The per-night ΤΑΚΚ amount follows from the property's characteristics (detached house, floor area, regime). They must be filled in on the property card under **Settings → Properties**.
 
-    If you have filled them in, the invoicing organisation needs a ΤΑΚΚ tax in the invoicing app with exactly that amount; the app matches it by itself and you can see it under **Settings → Tax details**. This is done so that a receipt with the wrong amount is never issued.
+    If you have filled them in, the invoicing organisation needs, for the property's AADE category and for each period, a ΤΑΚΚ tax in the invoicing app with exactly that amount. You pick it in the **Climate-fee tax** field of the property card, from a list holding only the taxes with that amount, and change it later under **Settings → Tax details**. This is done so that a receipt with the wrong amount is never issued.
   </Accordion>
 </AccordionGroup>
 

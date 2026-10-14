@@ -117,7 +117,7 @@ automatically — there's no separate manual "Enable" step first.
 
 <Steps>
   <Step title="Add the connector">
-    In Grok, go to **Skills and Connectors → Connectors** and click **"New Connector"**.
+    In Grok, go to **Plugins → Connectors** and click **"New Connector"**.
   </Step>
   <Step title="Custom connector">
     In the dialog that opens, select **"Custom"**, give it a name (e.g. "DeskBoy MCP"),

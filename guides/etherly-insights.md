@@ -117,7 +117,7 @@ description: "Σύνδεση εργαλείων AI (Claude, ChatGPT, Grok) γι�
 
 <Steps>
   <Step title="Προσθήκη connector">
-    Στο Grok, πήγαινε στο **Skills and Connectors → Connectors** και πάτα
+    Στο Grok, πήγαινε στο **Plugins → Connectors** και πάτα
     **«New Connector»**.
   </Step>
   <Step title="Custom connector">
