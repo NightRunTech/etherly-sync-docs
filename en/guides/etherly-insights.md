@@ -1,6 +1,6 @@
 ---
 title: 'DeskBoy MCP'
-description: "Connecting AI tools (Claude, ChatGPT, Grok) to ask questions about your booking and revenue data: ready-made prompts, guest privacy, enabling it and connection steps per tool, the available tools (revenue, occupancy, arrivals, cleaning, local market), usage limits, disconnecting."
+description: "Connecting AI tools (Claude, ChatGPT, Grok) to ask questions about your booking and revenue data: ready-made prompts, guest privacy, enabling it and connection steps per tool, the available tools (revenue, occupancy, arrivals, cleaning), usage limits, disconnecting. Buttons: 'Enable', 'Connect with AI', 'Step-by-step guide', 'What you can ask'."
 ---
 
 ## What is DeskBoy MCP
@@ -37,6 +37,8 @@ colleague.
 
 ### Example questions
 
+In the **DeskBoy MCP** tab, under **What you can ask**, each example has a copy icon to paste it into your AI.
+
 - "How much revenue did I make last month by booking channel?"
 - "Which properties have the highest occupancy rate this year?"
 - "What arrivals do I have tomorrow, and which are ready for check-in?"
@@ -68,6 +70,8 @@ Guest personal details are **never** shared through DeskBoy MCP: name, email, ph
   </Step>
 </Steps>
 
+Alternatively, from the **DeskBoy MCP** tab in Settings, press **Enable**: it turns the feature on with the consent shown under the button. The same button becomes **Disable** while the feature is on.
+
 <Note>
 You can skip this step if you prefer — approving a connection via Claude.ai, Grok, or ChatGPT
 (below) enables DeskBoy MCP automatically.
@@ -77,8 +81,7 @@ You can skip this step if you prefer — approving a connection via Claude.ai, G
 
 ## Connecting an AI tool
 
-On the **DeskBoy MCP** tab you'll find your **MCP endpoint** — the URL you need to connect
-any AI tool that supports MCP.
+The endpoint is in the **Connect with AI** card, with a copy icon next to it. The **Step-by-step guide** button, in the "How it works" card, opens this page.
 
 ### Connecting via Claude.ai (OAuth)
 
@@ -192,7 +195,6 @@ right one. The table below shows what you can ask about.
 |---|---|
 | **booking-pace** | How far a future period's occupancy has progressed compared to the same period last year |
 | **occupancy** | Occupancy rate, average nightly rate (ADR), and revenue per available room (RevPAR) per property |
-| **listed-rates** | A property's listed prices and minimum stay as shown on the channel, with a weekend/weekday summary. Availability is split out: nights open in the price list vs. nights actually free (open **and** unbooked), after cross-referencing the booking calendar |
 
 ### Rankings & comparisons
 
@@ -219,21 +221,6 @@ right one. The table below shows what you can ask about.
 |---|---|
 | **operational-backlog** | Counts of bookings pending invoicing, cancelled, paused, long-stay, or needing manual review |
 | **cleaning-readiness** | Which properties are ready for a given day, with overdue and upcoming cleaning tasks |
-
-### Local market
-
-| Tool | Description |
-|---|---|
-| **market-snapshot** | Snapshot of the short-term-rental market in your area: market occupancy, average daily rate and active listings |
-| **market-comparison** | Compare your own occupancy and average rate against the local market for a month — against listings of similar capacity when known (e.g. villa vs villas), and for future months both sides are compared on bookings confirmed so far |
-| **property-market-position** | Where one property sits against comparable listings in its area (same size profile): which range of the distribution its rate, occupancy and revenue fall into — requires coordinates, maximum guests, bedrooms and bathrooms to be filled in on the property card |
-| **market-trends** | The local market's monthly trajectory: demand, supply (active listings) and how many days before arrival bookings are made |
-| **competitor-lineup** | The comparable listings around one property (rating, reviews, minimum stay and performance estimates) |
-| **competitor-rates** | Listed prices, availability and minimum stay of specific competitor listings for the upcoming weeks |
-
-<Note>
-Market tools rely on an external market-data source and have a daily usage allowance per account. Area precision improves when your properties have coordinates — see the "Property Configuration" guide.
-</Note>
 
 More tools will be added gradually.
 
