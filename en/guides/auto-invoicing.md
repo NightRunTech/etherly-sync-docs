@@ -92,7 +92,7 @@ In **Settings → Channels** you configure, for each booking channel (Airbnb, Bo
 
 All channels start enabled; disable any you do not want invoiced automatically.
 
-- **Auto-invoicing** — new bookings from a channel with the switch off are marked **Skipped** and are not invoiced automatically; they stay in the list and you can send them manually. For **existing** bookings: filter by channel in Bookings and bulk-update their status as needed.
+- **Auto-invoicing** — when you turn the switch off, the channel's bookings that haven't been sent yet and depart today or later are marked **Skipped** and are not invoiced automatically; so is every new booking from that channel. When you turn it back on, those departing today or later are restored. Any booking you skipped or restored manually is never changed.
 - **Rent payment method** — how the channel pays you out; used in Short-Term Rental declarations.
 - **Climate Resilience Fee collection** — whether the fee is collected with the booking or on site during the stay.
 

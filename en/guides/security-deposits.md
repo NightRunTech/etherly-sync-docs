@@ -1,6 +1,6 @@
 ---
 title: 'Damage deposits'
-description: "What a damage deposit is, how the hold on the guest's card works and why it costs less than a charge and a refund, connecting Stripe from Connections, a new request from the booking, sending by email, “Copy guest link”, cancelling a request, the deposit after Online Check-In, what the guest sees and approves, automatic release, hold renewals for stays longer than 7 days, pausing to check for damage, charging for damage and releasing the remainder, releasing without a charge, the damage document, checking a pending operation, booking cancellation, notifications, who can do what, disconnecting Stripe, and which plans include it."
+description: "What a damage deposit is, how the hold on the guest's card works and why it costs less than a charge and a refund, connecting Stripe from Connections, a new request from the booking, sending by email, “Copy guest link”, cancelling a request, the deposit after Online Check-In, what the guest sees and approves, automatic release, hold renewals for stays longer than 7 days, “Extend hold” to check for damage with a new date and an optional reason, charging for damage and releasing the remainder, releasing without a charge, the damage document, checking a pending operation, booking cancellation, notifications, who can do what, disconnecting Stripe, and which plans include it."
 ---
 
 ## What a damage deposit is
@@ -66,23 +66,25 @@ If the guest has not approved the deposit yet, press **Cancel request** in the d
 
 ## What the guest sees
 
-The guest sees the property, the amount, the automatic release date and the deposit terms, in Greek, English, German, French, Dutch or Italian. They accept the terms, enter their card and approve the hold; their bank may ask them to confirm on their phone. After approval they receive a confirmation email.
+The guest sees the property, the amount, the **Hold ends** date and the deposit terms, in Greek, English, German, French, Dutch or Italian. They accept the terms, enter their card and approve the hold; their bank may ask them to confirm on their phone. After approval they receive a confirmation email.
 
 ---
 
 ## Automatic release
 
-In the deposit's details you see the **automatic release** date. At that moment DeskBoy requests the release of the amount and the guest is notified by email. The guest's bank decides when the amount is available on their card again.
+In the deposit's details you see the **Hold ends** date and, once the guest approves, **Hold started**. When the hold ends, the automatic release takes place: DeskBoy requests the release of the amount and the guest is notified by email. The guest's bank decides when the amount is available on their card again.
 
 ### Hold renewals
 
-A bank keeps a hold for a limited time, usually up to 7 days, and less for some cards. The exact expiry is shown as **Bank hold expiry**. When the deposit needs to last longer, for example for longer stays, DeskBoy renews the hold automatically before it expires, for the same amount, until the automatic release date, as the guest has accepted. During a renewal two holds may appear on their card for a while. If the hold cannot be renewed automatically, for example because the guest's bank asks the guest to confirm again (3D Secure), you receive an email and the deposit appears under **Action required**. The current hold is valid until it expires, so until then you can charge for any damage done to the property. To extend the hold until the automatic release date, send the guest the form from the deposit's details, with **Send by email** or with **Copy guest link** to send it however you prefer.
+A bank keeps a hold for a limited time, usually up to 7 days, and less for some cards. When the deposit needs to last longer, for example for longer stays, DeskBoy renews the hold automatically before it expires, for the same amount, until the automatic release date, as the guest has accepted. During a renewal two holds may appear on their card for a while. If the hold cannot be renewed automatically, for example because the guest's bank asks the guest to confirm again (3D Secure), you receive an email and the deposit appears under **Action required**. The current hold is valid until it expires, so until then you can charge for any damage done to the property. To extend the hold until the automatic release date, send the guest the form from the deposit's details, with **Send by email** or with **Copy guest link** to send it however you prefer.
 
 ---
 
-## Pausing to check for damage
+## Extending the hold
 
-If you need time to check for possible damage, press **Pause automatic release**. Automatic release stops and the amount stays on hold for as long as the bank hold lasts. Pausing does not extend the bank hold expiry, because the bank sets it.
+If you need time to check for possible damage, press **Extend hold** in the deposit's details, set the new date and, if you want, a reason. The guest is notified by email. You can extend the hold up to 7 days after the original date without a new approval, because the guest accepted this with their approval. If the new date requires extending the hold with the bank, what is described under “Hold renewals” applies.
+
+In the **Extend hold** dialog you pick the new date under **Extend hold until**, write, if you want, a **Reason sent to the guest (optional)** and press **Extend**; **Back** closes it without a change.
 
 ---
 
@@ -106,7 +108,7 @@ Rarely, Stripe takes a while to confirm a charge or a release, and the deposit s
 
 ## Booking cancellation
 
-If the booking is cancelled, a request the guest has not approved yet is cancelled, and an active hold is released automatically shortly after the cancellation, unless you have paused the release to check for damage.
+If the booking is cancelled, a request the guest has not approved yet is cancelled, and an active hold is released automatically shortly after the cancellation.
 
 ---
 
@@ -120,11 +122,11 @@ When the guest approves the deposit, for the first time or again, you receive an
 
 | Role | Can |
 |---|---|
-| Owner, Admin | Everything: connect Stripe, requests, sending, pause, charge, release, document |
+| Owner, Admin | Everything: connect Stripe, requests, sending, extend hold, charge, release, document |
 | User | View, new request, send the link, cancel the request before the guest approves |
 | Accountant | View |
 
-Charging, releasing and pausing are limited to the owner or an admin, because they move the guest's money.
+Charging, releasing and extending the hold are limited to the owner or an admin, because they concern the guest's money.
 
 ---
 
