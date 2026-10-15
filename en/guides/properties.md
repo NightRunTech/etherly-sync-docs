@@ -45,7 +45,7 @@ Shows the property's AADE category and the organization's tax for summer and win
 
 ### VAT and Stay Tax
 
-**VAT** is the rate of the accommodation documents — the standard rate for accommodation is 13%. If a rate is missing in Elorus, it is created there.
+**VAT** is the rate of the accommodation documents — the standard rate for accommodation is 13%. If a rate is missing in Elorus, it is created there. With a KissBill organization, while the property has no rate of its own the field shows the organization's rate, for example “13% · from the organization”; pick another only if the property differs.
 
 For the **Stay Tax**, choose the property's municipality and the app sets its rate — 0.5%, or 0.75% where the municipal council has decided an increase. If the property already had 0.75%, or if the municipality does not set one rate for all accommodation (for example, it sets a different rate per area), you choose. **Details** shows the municipality's decision and upcoming changes. You can always choose the other rate.
 
