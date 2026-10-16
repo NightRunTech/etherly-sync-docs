@@ -11,7 +11,7 @@ servers in Germany.
 ## Backups
 
 We keep regular backups, encrypted, on servers in the Netherlands. They are
-deleted automatically at the end of the retention period (180 days).
+deleted automatically at the end of the retention period (up to 12 months).
 
 ## What is encrypted
 
