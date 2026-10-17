@@ -95,7 +95,7 @@ description: "Solutions for the most common issues with DeskBoy — from initial
 <AccordionGroup>
   <Accordion title="Why aren't new bookings syncing?">
     Possible causes:
-    - **Hosthub API key expired or invalid** — check **Settings** → **Integrations**
+    - **The PMS (Hosthub, Hostaway etc.) no longer accepts the connection's credentials** — you'll see a badge on the connection in **Settings** → **Integrations** and a notice on the home page. Get new credentials (e.g. a new API key) for the same PMS account and enter them in the connection.
     - **New bookings without a checkout date** — they won't appear until a checkout date is set in Hosthub
     - **Hosthub API timeout** — the system retries automatically, but contact support if it persists
 

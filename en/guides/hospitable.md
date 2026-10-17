@@ -87,7 +87,7 @@ If you issue a new key in Hospitable, click **Replace key** and paste it. The ne
 
 ### "New key needed"
 
-If you see this badge, Hospitable no longer accepts the key and syncing has stopped. Issue a new key in Hospitable and paste it here — your bookings and documents stay as they are.
+If you see this badge on the connection, or a notice about it on the home page or by email, Hospitable no longer accepts the key and syncing has stopped. Issue a new key in Hospitable and paste it here — your bookings and documents stay as they are.
 
 <Note>
 Each Hospitable account connects once, so every booking is invoiced once.

@@ -77,7 +77,7 @@ Check that you copied the API key in full from Hostfully's **Agency Settings**. 
 
 ### "New API key needed"
 
-If you see this badge on the connection, or a notice about it on the home page, Hostfully no longer accepts this connection's API key, so syncing has stopped. Get a new API key for the same Hostfully account, open **Configure** on the Hostfully card, paste it into the **"New API key"** field and click **Save API key** — your bookings and documents stay exactly as they are.
+If you see this badge on the connection, or a notice about it on the home page or by email, Hostfully no longer accepts this connection's API key, so syncing has stopped. Get a new API key for the same Hostfully account, open **Configure** on the Hostfully card, paste it into the **"New API key"** field and click **Save API key** — your bookings and documents stay exactly as they are.
 
 ### If Hostfully doesn't respond
 

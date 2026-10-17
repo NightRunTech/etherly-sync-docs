@@ -80,7 +80,7 @@ If you create a new pair in Smoobu, click **Replace keys** and paste **both** fi
 
 ### "New keys needed"
 
-If you see this badge, Smoobu no longer accepts these keys and syncing has stopped. Create a new Key and Secret in Smoobu (**Advanced → API Keys**) and paste them here — your bookings and documents stay as they are.
+If you see this badge on the connection, or a notice about it on the home page or by email, Smoobu no longer accepts these keys and syncing has stopped. Create a new Key and Secret in Smoobu (**Advanced → API Keys**) and paste them here — your bookings and documents stay as they are.
 
 ### If Smoobu doesn't respond
 

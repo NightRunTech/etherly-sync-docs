@@ -80,7 +80,7 @@ Check that you copied the Account ID and the API key in full, and that both come
 
 ### "New API key needed"
 
-If you see this badge, Hostaway no longer accepts this connection's Account ID and API key, so syncing has stopped. Create a new API key in Hostaway (**Settings → Hostaway API**) and paste it here — your bookings and documents stay exactly as they are.
+If you see this badge on the connection, or a notice about it on the home page or by email, Hostaway no longer accepts this connection's Account ID and API key, so syncing has stopped. Create a new API key in Hostaway (**Settings → Hostaway API**) and paste it here — your bookings and documents stay exactly as they are.
 
 ### If Hostaway doesn't respond
 

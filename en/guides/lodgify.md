@@ -71,7 +71,7 @@ If you get a new key from Lodgify, click **Replace key** and paste it in. For th
 
 ### "New key needed"
 
-If you see this badge, Lodgify no longer accepts this key and syncing has stopped. Get the key again from Lodgify (**Settings → Public API**) and paste it here — your bookings and documents stay as they are.
+If you see this badge on the connection, or a notice about it on the home page or by email, Lodgify no longer accepts this key and syncing has stopped. Get the key again from Lodgify (**Settings → Public API**) and paste it here — your bookings and documents stay as they are.
 
 ### If Lodgify does not respond
 
