@@ -34,6 +34,8 @@ Declarations are found under **Declarations** in the sidebar — bookings ready 
 | Sending… | Submission in progress |
 | Processing | The submission is being processed by AADE — this can take up to an hour; no action needed |
 | Draft | The declaration has been prepared but not yet sent to AADE |
+| Waiting | The channel did not answer when we checked the booking before declaring. We retry automatically every day, for up to 3 days — no action needed |
+| Needs action | Automatic submission has stopped. If the channel connection credentials are no longer valid, update them in Connections and the declaration will be sent automatically once the connection is confirmed. If we tried for 3 days without an answer, or the declaration deadline is close, submit the declaration manually |
 | Draft at AADE | A provisional (draft) declaration exists at AADE awaiting finalization |
 | Submitted | Final submission — no action required |
 | Failed | Submission failed — the message explains whether it was a temporary AADE issue (worth retrying) or needs your action, e.g. checking your TAXISnet credentials |
@@ -92,7 +94,8 @@ If you wish to issue a **credit note** for the document that was already issued,
 Before any declaration is sent to AADE, the app confirms directly with your booking channel that the specific booking still stands. The same check runs before a document is issued.
 
 - If the channel reports the booking **has been cancelled**, the submission stops and the booking is marked as cancelled in the app. The reason appears in the daily report.
-- If the channel **does not respond** at that moment, the submission is **postponed** and retried later — nothing is sent without confirmation.
+- If the channel **does not respond** at that moment, the submission is **postponed** and the declaration shows as “Waiting”: we retry automatically every day, for up to 3 days. After that, or when the deadline is close, it becomes “Needs action” — nothing is sent without confirmation.
+- If the channel **connection credentials** are no longer valid, the declaration shows as “Needs action” with a link to Connections. Once they are updated and the connection is confirmed, it is sent automatically.
 
 <Note>
 This check applies to Hosthub connections. Other connections report cancellations to the app in their own way.
