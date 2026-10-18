@@ -1,6 +1,6 @@
 ---
 title: "Smoobu connection"
-description: "How you create a Key and Secret in Smoobu (Advanced → API Keys) and connect the account under Integrations, how instant updates and Re-register work, what needing action means on a booking with an extra charge or amounts that don't add up, replacing the keys and “New keys needed”."
+description: "How you create a Key and Secret in Smoobu (Advanced → API Keys) and connect the account under Integrations, how instant updates and Re-register work, what 'Manual review' means on a booking with an extra charge or amounts that don't add up, replacing the keys and “New keys needed”."
 ---
 
 # Smoobu connection
@@ -64,9 +64,13 @@ Under the connection's **Configure**, the **"Instant updates"** section shows th
 If updates stop arriving, **"Re-register"** creates a new entry in Smoobu in place of the previous one.
 </Tip>
 
-## What "booking needs review" means
+## What "booking in manual review" means
 
-If a booking has an **extra charge** the app doesn't handle yet, or its amounts don't add up, it appears under **Bookings** marked as **needing action** and **is not invoiced until that is resolved**. A notice on the home page says what happened, and its button shows you which bookings are affected.
+If a booking has an **extra charge** that needs to be identified, or its amounts don't add up, it appears under **Bookings** marked **"Manual review"** and **isn't invoiced until identification is complete**. A notice on the home page gives you the details, and **"See the bookings"** shows you which ones they are.
+
+<Note>
+If the booking already has a Draft, it keeps the "Sent as Draft" label with a warning triangle. "Send as Final" and "Retry" don't appear until identification is complete, so that no final document is issued with a wrong amount.
+</Note>
 
 This is deliberate: the amount on the document has to be the amount actually received, so a charge such as a city tax never ends up on a wrong document in your name. If the booking has no amount or its amounts don't add up, correct it in Smoobu and it updates on the next sync. For an extra charge, contact support.
 

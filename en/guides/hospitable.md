@@ -1,6 +1,6 @@
 ---
 title: "Hospitable connection"
-description: "Connecting Hospitable for bookings from every channel: issuing an API key in Hospitable, connecting under Settings → Integrations, our team finishing the connection, setting up instant updates, what a booking needing action means, replacing the key, the 'New key needed' badge."
+description: "Connecting Hospitable for bookings from every channel: issuing an API key in Hospitable, connecting under Settings → Integrations, our team finishing the connection, setting up instant updates, what 'Manual review' means, replacing the key, the 'New key needed' badge."
 ---
 
 # Hospitable connection
@@ -71,11 +71,15 @@ With instant updates, changes in Hospitable reach DeskBoy right away. Sync also 
 Need the link again? Click **Issue a new link** and add it in Hospitable. The previous link stops working.
 </Tip>
 
-## What "booking needs review" means
+## What "booking in manual review" means
 
-If a booking has a charge the app doesn't recognise yet, the booking appears under **Bookings** marked as **needing action**, waiting for you to confirm it.
+If a booking has a charge that needs to be identified, the booking appears under **Bookings** marked **"Manual review"** and isn't invoiced until identification is complete.
 
-This is deliberate: every channel names its charges differently, and the amount that gets declared has to be the amount actually received. You review the booking, confirm the amounts, and the document proceeds as normal.
+<Note>
+If the booking already has a Draft, it keeps the "Sent as Draft" label with a warning triangle. "Send as Final" and "Retry" don't appear until identification is complete, so that no final document is issued with a wrong amount.
+</Note>
+
+This is deliberate: every channel names its charges differently, and the amount that gets declared has to be the amount actually received. A notice on the home page gives you the details, and **"See the bookings"** shows you which ones they are.
 
 ## Managing the connection
 

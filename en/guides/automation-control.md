@@ -11,7 +11,7 @@ DeskBoy can issue documents and submit declarations without you doing anything. 
 
 - The connection with your channel or PMS only **reads** bookings and properties; it changes nothing there.
 - **Automatic invoicing** and **Automatic final declaration** are switches you turn on. While they are off, every document and every declaration goes out only when you send it.
-- With **Send as Draft** you first create a draft document in Elorus, which is not sent to myDATA; you make it final with **Send as Final** once you're sure — e.g. for the first few days, until you see everything comes out the way you want.
+- With **Send as Draft** you first create a Draft in Elorus, which is not sent to myDATA; you make it final with **Send as Final** once you're sure — e.g. for the first few days, until you see everything comes out the way you want.
 
 ## You choose what is automated
 

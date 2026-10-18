@@ -59,7 +59,11 @@ When they're on, the **"Instant updates"** section under the connection's **Conf
 
 ## What "booking in manual review" means
 
-If a booking has a **charge the app doesn't recognise yet**, or details it can't process safely, it is recorded under **Bookings** marked **"Manual review"** and **isn't invoiced until that's resolved**, so no incorrect document goes out in your name.
+If a booking has a **charge that needs to be identified**, or details it can't process safely, it is recorded under **Bookings** marked **"Manual review"** and **isn't invoiced until identification is complete**, so no incorrect document goes out in your name.
+
+<Note>
+If the booking already has a Draft, it keeps the "Sent as Draft" label with a warning triangle. "Send as Final" and "Retry" don't appear until identification is complete, so that no final document is issued with a wrong amount.
+</Note>
 
 A notice on the home page says what happened and what's needed — correcting the booking in Hostfully, or contacting support. Its button shows you all bookings in manual review.
 

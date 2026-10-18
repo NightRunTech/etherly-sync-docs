@@ -1,6 +1,6 @@
 ---
 title: "How Invoicing Works"
-description: "The documents per booking (accommodation, payment receipt, climate fee), final send and draft, document description, myDATA, the 'Partial' label, and emailing the document to the guest: which address, how to change it, the temporary Booking.com and Expedia emails, settings under Advanced."
+description: "The documents per booking (accommodation, payment receipt, climate fee), final send and Draft, a Draft finalized in Elorus with a different amount or nights, document description, myDATA, the 'Partial' label, and emailing the document to the guest: which address, how to change it, the temporary Booking.com and Expedia emails, settings under Advanced."
 ---
 
 # How Invoicing Works
@@ -41,7 +41,7 @@ With a **final send**, manually or automatically with [auto-invoicing](/en/guide
 
 In addition, the accommodation document is sent to the guest's email, if you have set it in DeskBoy to go out automatically.
 
-A **draft** only creates a provisional accommodation document, with the same amount the final document would have. It is not sent to AADE (myDATA) and comes without a payment receipt or ΤΑΚΚ, because these are linked to an issued document; they are issued on final send. It is mainly useful for testing, so you can make sure the amount and the description come out right. It is not an official AADE document.
+A **Draft** is an accommodation document for review only, with the same amount the final document would have. It is not sent to AADE (myDATA) and comes without a payment receipt or ΤΑΚΚ, because these are linked to an issued document; they are issued on final send. It is mainly useful for testing, so you can make sure the amount and the description come out right. It is not an official AADE document.
 
 To turn a draft into a final document, choose **"Send as Final"** on the booking's row. The draft is replaced by a final document with the booking's current details. Auto-invoicing does the same for the day's drafts.
 
@@ -52,6 +52,8 @@ Changes you made to the draft in your invoicing app are not carried over to the 
 ### When the draft changes in Elorus
 
 If you delete or finalise a draft directly in Elorus, open the booking and press **"Sync from Elorus"** in the "Document" step: the booking is updated with what happened there. "Send as Final" does the same on its own.
+
+However, if the booking's amount or nights changed, or the booking was cancelled, after you created the Draft, the booking is not recorded as issued and goes to **"Manual review"**, because the document in Elorus no longer matches the booking. Check the document in Elorus and contact us so we can sort it out. If you cancel the document in Elorus, along with the payment receipt and the ΤΑΚΚ if you had issued them, press **"Sync from Elorus"** and the booking becomes ready to issue again.
 
 ## Document Description
 

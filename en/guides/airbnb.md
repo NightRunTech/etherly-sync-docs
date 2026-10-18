@@ -1,6 +1,6 @@
 ---
 title: "Airbnb connection (Airbnb Live)"
-description: "How the Airbnb Live connection is made from Integrations (sending your details, the session, approval on Airbnb), what applies if you are a co-host, what arrives automatically (bookings, changes, cancellations, properties), what 'Action needed' means and what happens when you disconnect."
+description: "How the Airbnb Live connection is made from Integrations (sending your details, the session, approval on Airbnb), what applies if you are a co-host, what arrives automatically (bookings, changes, cancellations, properties), what 'Manual review' means and what happens when you disconnect."
 ---
 
 # Airbnb connection (Airbnb Live)
@@ -37,7 +37,11 @@ If you manage a property owned by someone else, approval comes from the owner's 
 - New bookings, date and amount changes, cancellations.
 - The account's properties, as a separate set next to the ones you already have. You set each property's invoicing settings and ΤΑΚΚ characteristics once under **Settings → Properties**.
 
-If a booking has a charge the app does not recognise yet, it appears under **Bookings** with the **"Action needed"** indicator: you check the amounts, confirm them, and the document proceeds normally.
+If a booking has a charge that needs to be identified, it appears under **Bookings** with the **"Manual review"** indicator and isn't invoiced until identification is complete, so no incorrect document goes out in your name.
+
+<Note>
+If the booking already has a Draft, it keeps the "Sent as Draft" label with a warning triangle. "Send as Final" and "Retry" don't appear until identification is complete, so that no final document is issued with a wrong amount.
+</Note>
 
 ## Disconnecting
 

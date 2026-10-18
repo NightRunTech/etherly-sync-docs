@@ -1,6 +1,6 @@
 ---
 title: "Connect Lodgify"
-description: "Where to find the API key in Lodgify and how to connect the account under Integrations, how instant updates and Re-register work, what “Needs action” means on a booking with an unknown charge, replacing the key, “New key needed”, and one source per property."
+description: "Where to find the API key in Lodgify and how to connect the account under Integrations, how instant updates and Re-register work, what “Manual review” means on a booking with a charge that needs to be identified, replacing the key, “New key needed”, and one source per property."
 ---
 
 # Connect Lodgify
@@ -53,9 +53,13 @@ If updates stop arriving, **"Re-register"** creates new entries in Lodgify in pl
 
 Extra charges on a booking, such as the cleaning fee, are invoiced **together with the stay**.
 
-If a booking carries a charge whose **name the app does not recognize**, it is recorded under **Bookings** marked **"Needs action"** and is **not invoiced until the charge is recognized**. You name the charges yourself in Lodgify, and a charge the app cannot identify would produce a document with the wrong amount in your name. So the app stops and shows it to you.
+If a booking has a charge that needs to be identified, it is recorded under **Bookings** marked **"Manual review"** and **isn't invoiced until identification is complete**. You name the charges yourself in Lodgify, and a charge that hasn't been identified would produce a document with the wrong amount in your name. So the app stops and shows it to you.
 
-The marker clears on its own once the charge is recognized or the booking no longer carries it. If you see it, send us the charge name exactly as it appears in Lodgify so we can add it.
+<Note>
+If the booking already has a Draft, it keeps the "Sent as Draft" label with a warning triangle. "Send as Final" and "Retry" don't appear until identification is complete, so that no final document is issued with a wrong amount.
+</Note>
+
+The marker clears on its own once the charge is identified or the booking no longer carries it. If you see it, send us the charge name exactly as it appears in Lodgify so we can add it.
 
 <Tip>
 Bookings with stay, discounts and cleaning are invoiced as usual and do not pass through here.
