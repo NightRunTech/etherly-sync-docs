@@ -1,6 +1,6 @@
 ---
 title: "Checkouts & Statuses"
-description: "What each booking status means and what to do, the actions Send, Draft, Retry, Skip and 'Issued outside DeskBoy', the 'Historical' label and the 'Booking received after check-out' confirmation, automatic sync with Hosthub (new bookings, changes, cancellations) and the manual Refresh, cancelled bookings and the cancellation fee, the billing contact, a send that did not complete, bookings spanning two years, Sync with invoicing provider, filters in Bookings."
+description: "What each booking status means and what to do, the actions Send, Draft, Retry, Skip and 'Issued outside DeskBoy', the 'Historical' label and the 'Booking received after check-out' confirmation, automatic sync with Hosthub (new bookings, changes, cancellations) the manual Refresh and the 'Provider not responding' indicator, cancelled bookings and the cancellation fee, the billing contact, a send that did not complete, bookings spanning two years, Sync with invoicing provider, filters in Bookings."
 ---
 
 # Checkouts & Statuses
@@ -44,6 +44,8 @@ DeskBoy syncs automatically with Hosthub at regular intervals. During each sync:
 - **Cancellations** are detected and the corresponding checkouts are marked as cancelled — only a cancellation fee you record gets invoiced (see below)
 
 You can also trigger a **manual sync** at any time by clicking **Refresh** on the **Bookings** page.
+
+If the indicator says **Provider not responding**, your booking provider is temporarily down. DeskBoy keeps retrying on its own and your bookings come in once it's back, so there's nothing you need to do.
 
 ## Cancelled bookings
 
