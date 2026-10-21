@@ -1,6 +1,6 @@
 ---
 title: "Short-Term Rental Declarations (AADE)"
-description: "Stay declarations to AADE via AADE Connect, the difference from myDATA, the To Declare and History tabs, manual and automatic submission, cancelled bookings and Skip, an existing declaration for the same dates, undeclared bookings, guest identification, platform mapping, payment method."
+description: "Stay declarations to AADE via AADE Connect, the difference from myDATA, the To Declare and History tabs, the Historical label on a booking, manual and automatic submission, cancelled bookings and Skip, an existing declaration for the same dates, undeclared bookings, guest identification, platform mapping, payment method."
 ---
 
 # Short-Term Rental Declarations
@@ -24,7 +24,7 @@ DeskBoy handles both automatically: documents are sent to myDATA via Elorus when
 A successful myDATA document submission **does not mean** the AADE Connect declaration has been filed — and vice versa. The two obligations are tracked independently.
 </Warning>
 
-Declarations are found under **Declarations** in the sidebar — bookings ready to declare with an AADE property mapping are shown: for businesses once the document is issued, for private individuals once the stay is complete.
+Declarations are found under **Declarations** in the sidebar — bookings ready to declare with an AADE property mapping are shown: for businesses once the document is issued, for private individuals once the stay is complete. Bookings marked **Historical** reached DeskBoy after their check-out and are not declared automatically. You declare them yourself, with the same button.
 
 ## Declaration statuses
 

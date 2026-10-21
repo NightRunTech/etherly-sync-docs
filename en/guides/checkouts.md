@@ -1,6 +1,6 @@
 ---
 title: "Checkouts & Statuses"
-description: "What each booking status means and what to do, the actions Send, Draft, Retry, Skip and 'Issued outside DeskBoy', automatic sync with Hosthub (new bookings, changes, cancellations) and the manual Refresh, cancelled bookings and the cancellation fee, the billing contact, a send that did not complete, bookings spanning two years, Sync with invoicing provider, filters in Bookings."
+description: "What each booking status means and what to do, the actions Send, Draft, Retry, Skip and 'Issued outside DeskBoy', the 'Historical' label and the 'Booking received after check-out' confirmation, automatic sync with Hosthub (new bookings, changes, cancellations) and the manual Refresh, cancelled bookings and the cancellation fee, the billing contact, a send that did not complete, bookings spanning two years, Sync with invoicing provider, filters in Bookings."
 ---
 
 # Checkouts & Statuses
@@ -13,6 +13,7 @@ A **checkout** corresponds to a completed booking from Hosthub — a guest stay 
 |-------|---------|------------|
 | **Needs setup** | Property missing required configuration | Complete property setup under Settings → Properties. If the tooltip mentions the climate fee tax, pick it in the **Climate-fee tax** field on the property's card — you change it later under Settings → Tax details |
 | **Due today** / **Upcoming** / **Overdue** | Ready to invoice; the label says when | Click **Send**, or wait for auto-invoicing |
+| **Historical** | The booking reached DeskBoy after its check-out, so it may already have been invoiced elsewhere | Issued only manually: click **Send** and confirm in the "Booking received after check-out" window. The document is dated today. These bookings are not sent by automatic invoicing or automatic declarations. In a bulk send, if the selection contains such bookings, you are asked to confirm once for all of them. |
 | **Invoiced** | Documents issued | None |
 | **Partial** | The document was issued but a later step (payment or climate fee) didn't complete | Click **Retry** on the booking's row |
 | **Waiting myDATA** | Accommodation invoice issued — myDATA has not yet indexed it for climate fee linking | Automatic retry in progress for about a day — no action required |
