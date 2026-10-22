@@ -29,6 +29,7 @@ Each choice is saved immediately and a **Saved** indicator appears. The changes 
 The list shows the **All properties** link first, then the properties by group, and finally the properties with **No group**. Each group also has its own link covering all its properties. All of these links show only that a date is reserved, with no guest details.
 
 - **Copy**: copies the link.
+- **Activity** (pulse icon; on a phone, a line under the link): when a calendar last read the link and how many times in total. A calendar reads every few hours, so many reads a day mean the link has been handed out widely. After **New link** the count starts over.
 - **New link** (refresh icon): creates a new link after you confirm. The previous one stops responding immediately, so give the new one to whoever uses it. It is also available for the link with guest details.
 
 ### Link with guest details
@@ -39,7 +40,7 @@ Anyone with this link can see the guest details, without signing in to DeskBoy. 
 
 To revoke it, turn the switch off: the link stops responding immediately. If you turn it on again you get a new link; the old one does not work again. Turning it on and off is recorded in the activity history.
 
-Calendars refresh feeds every few hours. Changes do not appear immediately.
+DeskBoy updates the feed immediately, as soon as a booking changes. Calendars, however, re-read it on their own schedule, often every few hours, so changes show up there with a delay. Google Calendar can take several hours to refresh and cannot be hurried; in Apple Calendar you set the subscription refresh frequency yourself.
 
 ## Adding it to a calendar
 
