@@ -1,13 +1,13 @@
 ---
 title: "iCal Calendar"
-description: "An iCal link per property, per group or for all properties that shows bookings and availability to calendars and partners: turning it on under Connections, the settings Period, What each booking shows, Cancelled bookings, Times, the Copy button, and adding the link to Google Calendar and Apple Calendar."
+description: "An iCal link per property, per group or for all properties that shows bookings and availability to calendars and partners: turning it on under Connections, the settings Period, Cancelled bookings, Times, the Availability link and the optional per-property Link with guest details, the Copy button, and adding the link to Google Calendar and Apple Calendar."
 ---
 
 # iCal Calendar
 
 Give partners a link that shows the bookings and availability of each property. Anyone with the link can see what it contains, without signing in to DeskBoy.
 
-The feed includes the bookings and the dates on which the property is not available. With a Hosthub connection it also includes the PMS blocks, such as cleaning, repairs or personal use, shown as **Μη διαθέσιμο** (not available).
+The feed includes the bookings, shown as **Reserved**, and the dates on which the property is not available. With a Hosthub connection it also includes the PMS blocks, such as cleaning, repairs or personal use, shown as **Unavailable**. The feed's texts are in English, because calendars and partners of any language read it.
 
 ## Turning it on
 
@@ -19,17 +19,25 @@ The page is available to the account owner and its admins.
 ## Settings
 
 - **Period**: **Upcoming bookings only** (default) or **Including the last 12 months**. Calendars truncate or slow down on very large feeds, which is why history is limited to 12 months.
-- **What each booking shows**: **Only that it is reserved** (default) shows a plain "Κρατημένο" (reserved) and reveals nothing. **Guest name** puts the name in the event title. **Name and full details** puts name, channel and guests in the title and, inside the event, country and booking reference. Anyone with the link can see them, which is why the first option is the default.
 - **Cancelled bookings**: **Hidden** (default) or **Shown as cancelled**, with a "cancelled" marker in the title.
 - **Times**: **All-day events** (default), as the channels send them, or **With check-in and check-out times**. In the second case you set **Check-in** and **Check-out**. The time zone is that of each property.
 
-Click **Save**. The changes apply to every link.
+Each choice is saved immediately and a **Saved** indicator appears. The changes apply to every link.
 
 ## Links
 
-The list shows the **All properties** link first, then the properties by group, and finally the properties with **No group**. Each group also has its own link covering all its properties.
+The list shows the **All properties** link first, then the properties by group, and finally the properties with **No group**. Each group also has its own link covering all its properties. All of these links show only that a date is reserved, with no guest details.
 
 - **Copy**: copies the link.
+- **New link** (refresh icon): creates a new link after you confirm. The previous one stops responding immediately, so give the new one to whoever uses it. It is also available for the link with guest details.
+
+### Link with guest details
+
+Each property has the **Link with guest details** switch. When you turn it on, a dialog explains what the link contains and, with **Enable**, a second link **With guest details** appears next to the **Availability** link. The second link shows the guest name, channel, number of guests, country and booking reference. It does not show email, phone or amounts.
+
+Anyone with this link can see the guest details, without signing in to DeskBoy. Give it only to someone who needs it for this property, and make sure you know where this information is shared. The group links and **All properties** have no version with details.
+
+To revoke it, turn the switch off: the link stops responding immediately. If you turn it on again you get a new link; the old one does not work again. Turning it on and off is recorded in the activity history.
 
 Calendars refresh feeds every few hours. Changes do not appear immediately.
 
