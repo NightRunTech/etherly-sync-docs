@@ -7,7 +7,7 @@ description: "An iCal link per property, per group or for all properties that sh
 
 Give partners a link that shows the bookings and availability of each property. Anyone with the link can see what it contains, without signing in to DeskBoy.
 
-The feed includes the bookings, shown as **Reserved**, and the dates on which the property is not available. With a Hosthub connection it also includes the PMS blocks, such as cleaning, repairs or personal use, shown as **Unavailable**. The feed's texts are in English, because calendars and partners of any language read it.
+The feed includes the bookings, shown as **Reserved**, and the dates on which the property is not available. With a Hosthub or Hostaway connection it also includes the PMS blocks, such as cleaning, repairs or personal use, shown as **Unavailable**. The feed's texts are in English, because calendars and partners of any language read it.
 
 ## Turning it on
 

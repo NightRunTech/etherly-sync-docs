@@ -39,6 +39,7 @@ Declarations are found under **Declarations** in the sidebar — bookings ready 
 | Draft at AADE | A provisional (draft) declaration exists at AADE awaiting finalization |
 | Submitted | Final submission — no action required |
 | Failed | Submission failed — the message explains whether it was a temporary AADE issue (worth retrying) or needs your action, e.g. checking your TAXISnet credentials |
+| Cancellation failed | AADE still holds the draft declaration. Click "Cancel Draft" to try again |
 | Skipped | Manually excluded from declaration |
 
 ## Property filter

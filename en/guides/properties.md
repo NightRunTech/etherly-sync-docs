@@ -1,6 +1,6 @@
 ---
 title: "Property Setup"
-description: "The fields on each property's card — Organization, Regime, House type, Climate-fee tax, VAT, Stay Tax with municipality, receipts contact, Branch, series, location and coordinates — which are needed to issue documents and which take their value from the organization; copying settings to many properties, properties under different tax IDs (a second organization or a second Elorus connection), and turning invoicing off under Advanced; notice and email to the Owner and Admins when the municipality changes the Stay Tax."
+description: "The fields on each property's card — Organization, Regime, House type, Climate-fee tax, VAT, Stay Tax with municipality, receipts contact, Branch, series, location and coordinates — which are needed to issue documents and which take their value from the organization; the 'Needs setup' marker in the list; copying settings to many properties, properties under different tax IDs (a second organization or a second Elorus connection), and turning invoicing off under Advanced; notice and email to the Owner and Admins when the municipality changes the Stay Tax."
 ---
 
 # Property Setup
@@ -23,6 +23,8 @@ Every change is saved automatically, and you see next to the field that it was s
 | **Default Receipts Contact** | Elorus issues every receipt to a contact. |
 
 The other fields take their value from the organization, or are only needed if they apply to you.
+
+Properties that aren't ready to issue documents yet show **"Needs setup"**. Click **"N properties need setup"** above the list to see only those; open one and click **"Go to field"** to jump to the missing setting.
 
 ## The card's fields
 

@@ -1,6 +1,6 @@
 ---
 title: "Account activation"
-description: "The activation steps in order: email verification, phone verification with an SMS code and its messages, choosing your capacity (private individual or business) with tax ID lookup, connecting your channel manager (Hosthub, Airbnb, Hospitable, Smoobu, Lodgify, Hostaway or Hostfully), the Free plan at the start, and when you connect your invoicing provider under Integrations."
+description: "The activation steps in order: email verification, phone verification with an SMS code and its messages, choosing your capacity (private individual or business) with tax ID lookup, connecting your channel manager (Hosthub, Airbnb, Hospitable, Smoobu, Lodgify, Hostaway or Hostfully), the Free plan at the start, when you connect your invoicing provider under Integrations, and how to change your number and name later from your Profile."
 ---
 
 # Account activation
@@ -17,12 +17,16 @@ To get started with DeskBoy, you complete a few quick activation steps. You don'
     Enter your phone number in international format (e.g. `+306900000000`), receive a code by SMS, and enter it to verify.
 
     If you see "We could not send the verification code", there is a temporary problem delivering the SMS — try again shortly. "Too many attempts" means you requested several codes in a short time; wait a few minutes before retrying.
+
+    You can change the number later from your **Profile**: select your name in the menu, then **Change phone number**. You receive a new SMS code at the new number, and the change takes effect once you confirm it.
   </Step>
   <Step title="Capacity & details">
     First you state **in what capacity** you rent out your properties:
 
+    - **Company or registered business** — you issue receipts or invoices for your bookings. A **tax ID** lookup fills in your details from the registry.
     - **I am a private individual** — you don't issue documents. You fill in your name, tax ID and address.
-    - **Registered business or company** — you issue receipts or invoices for your bookings. A **tax ID** lookup fills in your details from the registry.
+
+    Your first and last name can also be changed later from your **Profile**.
 
     The choice determines what the app does for every booking — and it can change later if your status changes (see [Private individual](/en/guides/private-individual)).
   </Step>
