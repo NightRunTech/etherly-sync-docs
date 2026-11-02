@@ -58,7 +58,7 @@ When the municipality changes its rate or decision, you see a notice on the home
 Elorus issues every receipt to a contact, even when the guest is a private individual. This is where you choose which one:
 
 - **One contact for all receipts** — the property's receipts are issued to the contact in the **Default Receipts Contact** field. If you don't choose a contact, the app creates and uses a "Retail Guest" contact automatically.
-- **A separate contact with the guest's details, for each booking** — a contact with the guest's name and country is created in Elorus, and the receipt is issued to it. If a booking has no guest name, the receipt is issued to the "Retail Guest" contact.
+- **A separate contact with the guest's details, for each booking** — a contact with the guest's name and country is created in Elorus, and the receipt is issued to it. If a booking has no guest name, the receipt is issued to the "Retail Guest" contact. If you turn on **Use an existing guest contact on receipts** in **Settings → Advanced**, the receipt is issued to an existing individual contact without a VAT number with the same full name and country, if there is one, instead of creating a new one. Two different guests with the same details will share a contact.
 
 The setting carries over to other properties with **Copy settings** / **Paste settings**. For an invoice to a company, see [My guest asked for an invoice](/en/faq#my-guest-asked-for-an-invoice-what-do-i-do).
 
