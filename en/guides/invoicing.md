@@ -27,6 +27,8 @@ For every checkout that is sent, DeskBoy automatically creates documents in Elor
 
 In **Settings → Tax details**, on each organization's card, in **Match document types with Elorus**, you choose which Elorus document type DeskBoy uses for receipts and which for invoices (e.g. "Service Receipt", "Service Invoice"). The options load from Elorus.
 
+On the same card, in **Template for guests from abroad**, you can pick an Elorus template, e.g. an English one, for the stay receipts and invoices of guests and businesses with a country other than Greece. The document type and the numbering series stay the same. If you leave it empty, or if the template is archived in Elorus, the default template is used. You create and edit templates in Elorus.
+
 ### Organization tax details
 
 If an organization has no tax details yet, press **Fill in fiscal details** on its card. Enter the tax ID: the name and legal form are filled in from AADE's registry, and you can correct them before saving. The details are needed for the VAT regime, the AADE declarations and the Climate Resilience Fee form, which is one per tax ID.
