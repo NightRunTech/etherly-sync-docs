@@ -15,7 +15,7 @@ DeskBoy supports **multiple users** per account. Each user has a role that defin
 
 **User**: The day-to-day work — bookings, invoices, declarations, check-in and cleaning.
 
-**Accountant**: Sees bookings, documents, declarations and the Climate Resilience Fee page and can export, without changing anything. Does not count toward your plan's user limit.
+**Accountant**: Sees bookings, documents, declarations, the Climate Resilience Fee page and the document register, and can export, without changing anything. Does not count toward your plan's user limit.
 
 ## Permissions in detail
 
@@ -23,6 +23,7 @@ DeskBoy supports **multiple users** per account. Each user has a role that defin
 |--------|:---:|:---:|:---:|:---:|
 | View bookings, documents and declarations | ✅ | ✅ | ✅ | ✅ |
 | Exports | ✅ | ✅ | ✅ | ✅ |
+| Close a month and manage credit notes in the document register | ✅ | ✅ | ❌ | ❌ |
 | Export all account data | ✅ | ❌ | ❌ | ❌ |
 | Sync bookings | ✅ | ✅ | ✅ | ❌ |
 | Issue documents | ✅ | ✅ | ✅ | ❌ |

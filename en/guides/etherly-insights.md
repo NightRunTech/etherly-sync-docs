@@ -185,7 +185,7 @@ right one. The table below shows what you can ask about.
 |---|---|
 | **business-overview** | Total bookings, nights, revenue, and channel breakdown for a date range |
 | **revenue-summary** | Compare bookings, nights, and revenue for this month or week against the previous one |
-| **revenue-breakdown** | Breaks amounts down into gross revenue, taxes/fees, channel commission, and net owner payout |
+| **revenue-breakdown** | A period's revenue under your [Revenue basis](/en/guides/revenue-basis) setting, plus amounts broken down into gross revenue, taxes/fees, channel commission, and net owner payout |
 | **cancellation-analysis** | Cancellation rate overall and by booking channel, plus the revenue lost to cancellations |
 | **revenue-projection** | Revenue estimate for a future period with fill scenarios for the still-unsold nights |
 

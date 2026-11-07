@@ -2387,6 +2387,68 @@
                 "hostPayoutCents"
               ]
             }
+          },
+          "attributedRevenueBasis": {
+            "type": "string",
+            "enum": [
+              "policy"
+            ],
+            "description": "attributedRows follow the account's Revenue basis setting."
+          },
+          "attributedRows": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "month": {
+                  "type": "string",
+                  "description": "YYYY-MM"
+                },
+                "propertyId": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "propertyName": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "channel": {
+                  "type": "string",
+                  "description": "Display name: known platforms under one name (e.g. Airbnb, Booking.com), direct bookings as \"Phone / Direct bookings\", other channels as the provider reports them. Rows are grouped by channelCode, so two rows can show the same name; where a row's bookings carry different names, the most common one"
+                },
+                "channelCode": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "Normalised channel code — matches channelCode in /bookings; null when the bookings have none, and the row then groups them by channel"
+                },
+                "currency": {
+                  "type": "string"
+                },
+                "attributedRevenueCents": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "description": "In cents. null when the row's currency is not EUR."
+                }
+              },
+              "required": [
+                "month",
+                "propertyId",
+                "propertyName",
+                "channel",
+                "channelCode",
+                "currency",
+                "attributedRevenueCents"
+              ]
+            },
+            "description": "Revenue per month, property and channel under the account's Revenue basis setting: the accommodation amount (with manual corrections) minus the climate resilience fee it contains, in the month the setting assigns, plus collected cancellation fees in the month of the cancellation. Only amounts dated from `from` to `to` count. Grouped like rows; a group can appear here without a row in rows. For a booking without an accommodation document issued in DeskBoy, the fee may still be included."
           }
         },
         "required": [

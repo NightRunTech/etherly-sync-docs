@@ -1,6 +1,6 @@
 ---
 title: "Auto-Invoicing"
-description: "Enabling it and the Execution time from Checkouts, which bookings are auto-invoiced, the cancellation check before issuing, the daily report, the split at the climate-fee rate change, per-channel and per-property settings under Channels, tax ID lookup and year-end booking split under Advanced."
+description: "Enabling it and the Execution time from Checkouts, which bookings are auto-invoiced, the cancellation check before issuing, the daily report, the standalone climate fee at the rate change, per-channel and per-property settings under Channels, tax ID lookup and year-end booking split under Advanced."
 ---
 
 # Auto-Invoicing
@@ -63,19 +63,19 @@ If no bookings are ready to invoice at execution time, auto-invoicing completes 
 
 ## Climate Resilience Fee for stays that cross a rate change
 
-When a stay crosses the date on which the Climate Resilience Fee rate changes (e.g. 31 March → 1 April), the booking is automatically split into two parts — one per rate period. Each part issues its own accommodation document and its own fee receipt, with the amounts prorated across its nights. The first part is issued on its last night, so that it is declared in the correct month — in line with the legislation and the AADE guidance — and the second as usual at checkout.
+When a stay crosses the date on which the Climate Resilience Fee rate changes (e.g. 31 March → 1 April), the booking stays whole. On the last night of the first period, a fee receipt for that period's nights is issued automatically, with no accommodation document, so that it is declared in the correct month, in line with the AADE guidance. At checkout, the accommodation document and the fee receipt for the remaining nights are issued.
 
 **Example**: a booking from 28 March to 3 April, 6 nights, with €600 accommodation.
 
-| Part | Period | Accommodation document | Fee receipt | Issued |
-|------|--------|------------------------|-------------|--------|
-| 1st | 28/3 – 1/4 (4 nights) | €400 | winter period, 4 nights | **31 March** |
-| 2nd | 1/4 – 3/4 (2 nights) | €200 | summer period, 2 nights | **3 April** (checkout) |
+| Issued | Accommodation document | Fee receipt |
+|--------|------------------------|-------------|
+| **31 March** | — | winter period, 4 nights |
+| **3 April** (checkout) | €600 | summer period, 2 nights |
 
-With auto-invoicing enabled, each part's documents are issued automatically on the day they correspond to. With manual sends nothing is issued automatically: on the first part's issue day (31 March in the example) the part appears in **today's bookings** and you send it like any other booking of the day; the second part appears as usual on the departure day. Both parts appear on the [Climate Resilience Fee](/guides/climate-fee) page, each in the month it was issued.
+The first period's receipt is issued automatically even if you send your documents manually, so don't issue it again at your provider. Both receipts appear on the [Climate Resilience Fee](/guides/climate-fee) page, each in the month it was issued.
 
 <Note>
-If your account needs a different handling of the rate boundary, or your accountant prefers a different approach (e.g. issuing all documents at checkout), the DeskBoy team can adjust it — contact us.
+If your accountant prefers a different handling of the rate change (e.g. issuing all documents at checkout), the DeskBoy team can adjust it. Contact us.
 </Note>
 
 ## Combining with manual sends

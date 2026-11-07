@@ -34,7 +34,7 @@ So each property lands on the right line, fill in its **climate-fee characterist
 When a month has no stays, no zero declaration is submitted — the page says so.
 </Note>
 
-Each month includes the fee documents **issued** within it — that is how AADE asks for the declaration. It usually matches the departure month. In the **Per booking** view, the **Issued** column shows each document's date. A stay that crosses a rate change is split into two parts — the first issues its documents on its last night ([more](/guides/auto-invoicing)) — and appears here in two months, one part in each.
+Each month includes the fee documents **issued** within it — that is how AADE asks for the declaration. It usually matches the departure month. In the **Per booking** view, the **Issued** column shows each document's date. A stay that crosses a rate change has two fee receipts: the first is issued on the last night of the first period ([more](/guides/auto-invoicing)) and the second at checkout. If they fall in different months, the stay appears here in both.
 
 With **Sync with invoicing provider** (the ⋮ menu next to Refresh) on the Checkouts page, the app checks the fee receipts that exist in your invoicing app for the month you select. If one was issued directly there (outside the app), it appears in a list with a suggested booking — with your confirmation it is added to the form and counts in its issue month. Anything that doesn't concern a booking can be permanently dismissed.
 
@@ -77,7 +77,7 @@ From these, the line of the AADE form on which the property counts follows autom
 | 2 (Apr 1–2) | Summer | €8.00 | €16.00 |
 | **Total** | | | **€24.00** |
 
-In this case, the booking appears in **Bookings** as two parts — one per rate period — and each issues its own accommodation document and its own fee receipt.
+In this case, the booking stays whole in **Bookings**, with one accommodation document and two fee receipts, one per rate period.
 
 For a private individual without business registration, who issues the documents outside the app, the **Per booking** view shows such a stay as two parts — one per fee period, each in the month it should be issued (e.g. "4 of 6 nights — winter part, to be issued 31/3").
 

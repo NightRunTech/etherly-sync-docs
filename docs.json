@@ -82,6 +82,8 @@
               "guides/invoicing",
               "guides/private-individual",
               "guides/climate-fee",
+              "guides/document-register",
+              "guides/month-close",
               "guides/auto-invoicing",
               "guides/declarations",
               "guides/aade-connect",
@@ -105,7 +107,12 @@
           },
           {
             "group": "Εργαλεία",
-            "pages": ["guides/assistant", "guides/etherly-insights", "guides/data-access-api"]
+            "pages": [
+              "guides/assistant",
+              "guides/etherly-insights",
+              "guides/revenue-basis",
+              "guides/data-access-api"
+            ]
           },
           {
             "group": "Βοήθεια",
@@ -145,6 +152,8 @@
               "en/guides/invoicing",
               "en/guides/private-individual",
               "en/guides/climate-fee",
+              "en/guides/document-register",
+              "en/guides/month-close",
               "en/guides/auto-invoicing",
               "en/guides/declarations",
               "en/guides/aade-connect",
@@ -171,6 +180,7 @@
             "pages": [
               "en/guides/assistant",
               "en/guides/etherly-insights",
+              "en/guides/revenue-basis",
               "en/guides/data-access-api"
             ]
           },
