@@ -28,7 +28,7 @@ From the arrow next to the booking's button (on mobile, the card's button) you c
 | Action | What it does |
 |--------|--------------|
 | **Send** / **Send as Final** | Issues the stay document, the payment and the climate fee, transmitted to myDATA. Available from the departure day; before that, the booking's button sends a Draft. |
-| **Send as Draft** | An accommodation document for review only, without payment or climate fee. It does not go to myDATA. |
+| **Send as Draft** | An accommodation document for review only, without payment or climate fee. It does not go to myDATA. It counts as a checkout. |
 | **Send as Final**, on a draft | The draft is replaced by a final document with the booking's current details. If you already made it final in Elorus, the booking keeps that one and no second is issued. If the amount or nights changed in the meantime, or the booking was cancelled, it goes to "Manual review". |
 | **Cancel Draft** | Deletes the draft in Elorus too; the booking is ready to send again. If the draft was already deleted in Elorus, the booking is simply cleared. |
 | **Sync from Elorus** | In the booking's "Document" step. Checks what happened in Elorus: a draft made final there → the booking becomes "Invoiced"; a deleted draft → the booking is ready to send again. On an invoiced booking it brings in the payment and climate fee if you issued them there. |

@@ -164,7 +164,7 @@ description: "Solutions for the most common issues with DeskBoy — from initial
   </Accordion>
 
   <Accordion title="What counts as a checkout?">
-    Every booking that had a document issued within the month — once per booking, in the month it was issued.
+    Every booking that had a document issued or a Draft sent within the month — once per booking, in the month of whichever came first.
   </Accordion>
 
   <Accordion title="How do I pay?">

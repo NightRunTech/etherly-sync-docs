@@ -17,7 +17,7 @@ A month with no checkouts is not charged on any plan.
 
 ## What counts as a checkout
 
-Every booking that had a **document issued** within the month counts as one checkout — once, in the month it was issued. A booking split across two years, or a group booking, also count as a single checkout.
+Every booking that had a **document issued or a Draft sent** within the month counts as one checkout, once, in the month of whichever came first. A Draft finalized later does not count again, and a cancelled Draft stays counted, without counting again if it is sent again. A booking split across two years, or a group booking, also count as a single checkout. A booking marked **Historical** does not count when you adopt a document issued outside DeskBoy. If a declaration is then submitted to AADE for that booking, it counts as one checkout, in the month it was submitted.
 
 ## The plans
 
