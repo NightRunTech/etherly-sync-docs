@@ -1,6 +1,6 @@
 ---
 title: "Getting Started"
-description: "Account, activation, booking-channel connection, invoicing provider and AADE Connect: the steps to your first ready booking, in about 10 minutes."
+description: "Account, activation, booking-channel connection, invoicing provider and AADE Connect: the steps to your first ready booking, in about 10 minutes. And when Elorus no longer accepts the API key: “New API key needed”, “Check again”, “Open bookings”."
 ---
 
 # Getting Started with DeskBoy
@@ -82,6 +82,10 @@ If you issue documents, connect your provider under **Settings → Integrations*
 <Info>
 Booking sync, AADE declarations and analytics work from the moment your channel is connected. Add the invoicing provider whenever you are ready. Provider credentials are stored encrypted.
 </Info>
+
+### When Elorus no longer accepts the API key
+
+If Elorus no longer accepts the API key, the connection card reads “New API key needed”. Open the connection and enter a new API key for the same organization, or press “Check again” if you fixed it in Elorus. Once the connection works again, the top of Integrations shows how many bookings are waiting to be sent. “Open bookings” shows them in the list, so you can check which ones you already issued by hand and send the ones that are missing.
 
 ---
 
