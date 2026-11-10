@@ -1,6 +1,6 @@
 ---
 title: 'DeskBoy MCP'
-description: "Connecting AI tools (Claude, ChatGPT, Grok) to ask questions about your booking and revenue data: ready-made prompts, guest privacy, enabling it and connection steps per tool, the available tools (revenue, occupancy, arrivals, cleaning), usage limits, disconnecting. Buttons: 'Enable', 'Connect with AI', 'Step-by-step guide', 'What you can ask'."
+description: "Connecting AI tools (Claude, ChatGPT, Grok) to ask questions about your booking and revenue data: ready-made prompts, guest privacy, enabling it and connection steps per tool, the available tools (revenue, occupancy, arrivals, cleaning), usage limits, disconnecting, 'Manage property groups' per connected app. Buttons: 'Enable', 'Connect with AI', 'Step-by-step guide', 'What you can ask'."
 ---
 
 ## What is DeskBoy MCP
@@ -13,7 +13,7 @@ Looking for programmatic access to your data (REST/OpenAPI, no AI tool involved)
 </Note>
 
 <Note>
-DeskBoy MCP is **strictly read-only**. No AI tool can create, modify, or delete data through this connection.
+Each connected app starts with read access. You can separately enable property-group management for it in DeskBoy MCP settings.
 </Note>
 
 ---
@@ -245,3 +245,12 @@ If a limit is exceeded, the AI tool will receive an error and should wait before
 <Note>
 Revocation takes effect immediately — there is no delay or cache that would let a disconnected app keep working.
 </Note>
+
+
+## Manage property groups
+
+In **DeskBoy MCP** settings, the **“Manage property groups”** switch beside each connected
+app lets it create groups, rename them and change their members. Enable it when you want
+to organize your properties from your AI tool. It starts disabled and you can turn it off
+at any time. Changing it requires property-management permission; the user who connected
+the app must also retain that permission.

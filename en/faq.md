@@ -116,6 +116,13 @@ description: "Solutions for the most common issues with DeskBoy — from initial
 
     To trigger an immediate sync, click **"Refresh"** (syncs all connections) on the Bookings page.
   </Accordion>
+
+  <Accordion title="What does the message '… isn't responding right now' mean?">
+    You see it when a provider your account uses (your PMS, your invoicing provider or AADE) stops responding for a while. Only affected accounts see it, and it closes on its own once the provider is back. We already know about it, so there's no need to contact us.
+    - **Bookings:** new bookings and changes will be delayed. We retry automatically, so there's nothing you need to do.
+    - **Invoicing:** any documents that weren't issued will be waiting in **Bookings**, so you can send them once it's back.
+    - **AADE:** any declarations that weren't submitted will be waiting in **ST Declarations**, so you can send them once it's back.
+  </Accordion>
 </AccordionGroup>
 
 ## Climate Resilience Fee
