@@ -18,7 +18,7 @@ A **checkout** corresponds to a completed booking from Hosthub — a guest stay 
 | **Invoiced**, with the label "Climate fee missing", "Payment missing" or "Payment and climate fee missing" | The Draft was finalized in Elorus and we did not find these documents. In this case DeskBoy does not issue them. | If you have not issued them, issue them in Elorus and press **"Sync from Elorus"**. The label goes away once they are found. |
 | **Partial** | The document was issued but a later step (payment or climate fee) didn't complete | Click **Retry** on the booking's row |
 | **Waiting myDATA** | Accommodation invoice issued — myDATA has not yet indexed it for climate fee linking | Automatic retry in progress for about a day — no action required |
-| **Manual review** | myDATA finalization did not complete after about a day of retries — or myDATA permanently rejected the accommodation document — or the property was assigned to a different invoicing organization after documents had already been issued for the booking — or a Draft was finalized in Elorus with an amount, nights or document type that no longer match the booking | **myDATA:** you will receive an email notification — check in your invoicing application and retry myDATA submission manually. **Permanent myDATA rejection:** the reason is shown in the booking's send timeline; correct and resubmit the document from your invoicing application. **Organization change:** assign the property back to the organization that issued the documents, then retry the send. **Changed Draft:** if you cancel the document in Elorus, along with the payment and the climate fee if you had issued them, press **"Sync from Elorus"** and the booking becomes ready to issue again. |
+| **Manual review** | myDATA finalization did not complete after about a day of retries — or myDATA permanently rejected the accommodation document — or the property was assigned to a different invoicing organization after documents had already been issued for the booking — or a Draft was finalized in Elorus with an amount, nights or document type that no longer match the booking — or a document that looks like it belongs to the booking was found in Elorus | **myDATA:** you will receive an email notification — check in your invoicing application and retry myDATA submission manually. **Permanent myDATA rejection:** the reason is shown in the booking's send timeline; correct and resubmit the document from your invoicing application. **Organization change:** assign the property back to the organization that issued the documents, then retry the send. **Changed Draft:** if you cancel the document in Elorus, along with the payment and the climate fee if you had issued them, press **"Sync from Elorus"** and the booking becomes ready to issue again. **Possible document:** press **Send** and choose one of the documents or a new one ([more](#pre-issue-check)). |
 | **Split in two** | Booking spanning two calendar years | Not invoiced directly — two separate checkouts are created automatically |
 
 ## Booking actions {#booking-actions}
@@ -123,6 +123,21 @@ Amounts appear in the Greek convention: a dot for thousands and a comma for deci
 <Note>
 The format only affects how you see the amount on screen. The amount issued on the document and declared to AADE is the same.
 </Note>
+
+## Document that may already have been issued {#pre-issue-check}
+
+Before sending a booking, DeskBoy checks Elorus for a stay document that was issued outside DeskBoy and looks like it belongs to this booking. This way two documents are not issued for the same stay.
+
+When you press **Send**, for the bookings where a document that looks like the same one is found, the window **"Are there already documents for this booking?"** opens, one booking at a time. Next to each document you see what matches the booking (**Same amount**, **Same name**, **Same booking code**, **Same day as check-out**) and how likely it is to belong to the booking. With **Open in Elorus** you see it at the provider. Choose one of the two:
+
+- **one of the documents**, if it belongs to the booking. You press **Link to** the document; it is linked to the booking and no new one is issued. A Draft can be linked only after it is finalized in Elorus.
+- **New document from DeskBoy**, if none belongs to the booking. If you choose a new document and one of those already at the provider did belong to the booking, two documents will have been issued for the same booking.
+
+With **Cancel send** the booking is not sent.
+
+In automatic invoicing, if the amount and the name or booking code match, DeskBoy does not issue a document and the booking moves to **Manual review**. Press **Send** and choose as above.
+
+If the check cannot be done, the booking is not sent, so that no document is issued without the check. Try again shortly.
 
 ## Sync with invoicing provider {#provider-sync}
 
