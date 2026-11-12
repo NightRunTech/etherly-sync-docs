@@ -1,6 +1,6 @@
 ---
 title: 'Cleaning Staff'
-description: "Adding a cleaner under Cleaning Team Management, assigning properties, sending the link by SMS and its delivery status, logging in with a one-time code, installing on the home screen, what they see and the 'Ready' mark, notifications for same-day changes, manual tasks, revoking access."
+description: "Adding a cleaner under Cleaning Team Management, assigning properties, sending the link by SMS and its delivery status, logging in with a one-time code, installing on the home screen, what they see and the 'Ready' mark, the “Clean & Ready” marking and “Guest name on tasks” settings, notifications for same-day changes, manual tasks, revoking access."
 ---
 
 ## What it is
@@ -82,10 +82,14 @@ On their dashboard, the cleaner sees their cleaning tasks:
 
 For each task they see: property name, date, arrival/departure time, guest count, number of nights, and any task notes. They can mark a property as **"Ready"** or undo their own mark.
 
+In **Cleaning Team Management** you set two options:
+- **“Clean & Ready” marking**: if you turn it off, staff see only today's and upcoming tasks, without the button and without pending cleanings from previous days. Useful if your team does not record when a property was cleaned.
+- **Guest name on tasks**: staff see the guest's first name and last-name initial (e.g. Maria P.) on each arrival and departure. It is off by default.
+
 The "Ready" mark applies to each task's specific day — every day is marked independently. Completed tasks from previous days stay visible as "Ready" for the rest of the day so the cleaner can see their action was recorded; the list clears them on a pull-to-refresh or when the day changes.
 
 <Warning>
-Cleaners **never see** guest details — name, phone number, or identification number. They only see information relevant to the property and the cleaning task.
+Cleaning staff **never see** a guest's phone, email or ID number. They see the guest's name (first name and last-name initial) only if you turn on **Guest name on tasks**.
 </Warning>
 
 ---
