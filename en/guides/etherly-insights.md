@@ -1,6 +1,6 @@
 ---
 title: 'DeskBoy MCP'
-description: "Connecting AI tools (Claude, ChatGPT, Grok) to ask questions about your booking and revenue data: ready-made prompts, guest privacy, enabling it and connection steps per tool, the available tools (revenue, occupancy, arrivals, cleaning), usage limits, disconnecting, 'Manage property groups' per connected app. Buttons: 'Enable', 'Connect with AI', 'Step-by-step guide', 'What you can ask'."
+description: "Connecting AI tools (Claude, ChatGPT, Grok) to ask questions about your booking and revenue data: ready-made prompts, guest privacy, enabling it and connection steps per tool, the available tools (revenue, occupancy, arrivals, cleaning), usage limits, disconnecting. Buttons: 'Enable', 'Connect with AI', 'Step-by-step guide', 'What you can ask'."
 ---
 
 ## What is DeskBoy MCP
@@ -10,10 +10,6 @@ DeskBoy MCP lets AI tools (Claude, ChatGPT, Grok, and anything else that support
 <Note>
 Looking for programmatic access to your data (REST/OpenAPI, no AI tool involved)? See the
 **"Data Access (API)"** guide.
-</Note>
-
-<Note>
-Each connected app starts with read access. You can separately enable property-group management for it in DeskBoy MCP settings.
 </Note>
 
 ---
@@ -69,6 +65,10 @@ Guest personal details are **never** shared through DeskBoy MCP: name, email, ph
     endpoint** and the list of connected apps.
   </Step>
 </Steps>
+
+<Note>
+Turning it on, connecting and disconnecting AI apps is done by the Owner or an Admin.
+</Note>
 
 Alternatively, from the **DeskBoy MCP** tab in Settings, press **Enable**: it turns the feature on with the consent shown under the button. The same button becomes **Disable** while the feature is on.
 
@@ -230,6 +230,10 @@ More tools will be added gradually.
 
 - A daily usage limit applies, shared across all your connected apps. The **DeskBoy MCP**
   tab shows today's usage against the limit.
+- You can have up to 5 connected apps, so that no forgotten connections keep access to your
+  data. If you already have 5, the approval screen lists them with their "Last used" date and a
+  **"Disconnect"** button next to each; disconnect one you no longer use and the connection
+  continues.
 
 If a limit is exceeded, the AI tool will receive an error and should wait before retrying.
 
@@ -245,12 +249,3 @@ If a limit is exceeded, the AI tool will receive an error and should wait before
 <Note>
 Revocation takes effect immediately — there is no delay or cache that would let a disconnected app keep working.
 </Note>
-
-
-## Manage property groups
-
-In **DeskBoy MCP** settings, the **“Manage property groups”** switch beside each connected
-app lets it create groups, rename them and change their members. Enable it when you want
-to organize your properties from your AI tool. It starts disabled and you can turn it off
-at any time. Changing it requires property-management permission; the user who connected
-the app must also retain that permission.

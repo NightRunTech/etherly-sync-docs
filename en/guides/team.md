@@ -1,6 +1,6 @@
 ---
 title: "User Management"
-description: "The Owner, Admin, User and Accountant roles and what each can do, how you invite a new user from “Users” and who assigns which role, what to do with an expired invitation, how you remove a user, what the activity history records, and who can export all account data."
+description: "The Owner, Admin, User and Accountant roles and what each can do, how you invite a new user from “Users” and who assigns which role, what to do with an expired invitation, how you remove a user, what the activity history records, and who can export all account data or connect AI tools through DeskBoy MCP."
 ---
 
 # User Management
@@ -32,6 +32,7 @@ DeskBoy supports **multiple users** per account. Each user has a role that defin
 | Add and edit properties | ✅ | ✅ | ❌ | ❌ |
 | Settings | ✅ | ✅ | ❌ | ❌ |
 | Connections (booking channels, invoicing provider, AADE) | ✅ | ✅ | ❌ | ❌ |
+| DeskBoy MCP (connecting AI tools such as Claude and ChatGPT) | ✅ | ✅ | ❌ | ❌ |
 | API keys and webhooks with guest details | ✅ | ❌ | ❌ | ❌ |
 | Invite and remove Users and Accountants | ✅ | ✅ | ❌ | ❌ |
 | Invite and remove Admins | ✅ | ❌ | ❌ | ❌ |
