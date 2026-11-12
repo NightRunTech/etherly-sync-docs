@@ -36,7 +36,7 @@ Declarations are found under **Declarations** in the sidebar — bookings ready 
 | Draft | The declaration has been prepared but not yet sent to AADE |
 | Waiting | The channel did not answer when we checked the booking before declaring. We retry automatically every day, for up to 3 days — no action needed |
 | Needs action | Automatic submission has stopped. If the channel connection credentials are no longer valid, update them in Connections and the declaration will be sent automatically once the connection is confirmed. If we tried for 3 days without an answer, or the declaration deadline is close, submit the declaration manually |
-| Draft at AADE | A provisional (draft) declaration exists at AADE awaiting finalization |
+| Draft at AADE | A Draft declaration exists at AADE awaiting finalization |
 | Submitted | Final submission — no action required |
 | Failed | Submission failed — the message explains whether it was a temporary AADE issue (worth retrying) or needs your action, e.g. checking your TAXISnet credentials |
 | Cancellation failed | AADE still holds the draft declaration. Click "Cancel Draft" to try again |
@@ -55,7 +55,7 @@ The **Property** filter works as in every list: checkbox selection per property 
   <Step title="Choose declaration type">
     Use the **"Send Selected"** button and choose:
     - **Final** — definitive submission to AADE
-    - **Draft** — provisional declaration for later finalization
+    - **Draft** — for later finalization
   </Step>
   <Step title="Monitor status">
     Status updates automatically. On failure, the error message is shown inline.

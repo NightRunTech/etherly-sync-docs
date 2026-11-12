@@ -199,7 +199,7 @@ description: "Solutions for the most common issues with DeskBoy — from initial
 
     Open the booking in **Bookings** and:
     1. In **Document Type**, choose **Invoice**.
-    2. In **Customer**, search for the company by name or VAT number.
+    2. In **Contact**, search for the company by name or VAT number.
     3. If it isn't there, press **Add new Business Contact** and fill in its details. For a Greek company, enter the VAT number and press the search button next to it: the name, tax office and address fill in by themselves. This works once you've entered your [AADE access details](/en/guides/auto-invoicing#aade-—-tax-id-lookup) in **Settings → Advanced**.
 
     You can enter the details whenever the guest gives them to you, even for a booking a month away — you'll find it under **Upcoming**. With **Automatic invoicing** on, the invoice is issued on its own on check-out day and, with the default settings, emailed to the guest. You don't need to remember to issue it.

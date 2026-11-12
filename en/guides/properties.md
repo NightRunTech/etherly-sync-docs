@@ -53,7 +53,7 @@ For the **Stay Tax**, choose the property's municipality and the app sets its ra
 
 When the municipality changes its rate or decision, you see a notice on the home page and the **Stay tax: Pending** badge on the property's card until you choose the rate you apply. Municipal rates and decisions are updated once a month. The Owner and Admins also receive an email.
 
-### Customer on receipts
+### Contact on receipts
 
 Elorus issues every receipt to a contact, even when the guest is a private individual. This is where you choose which one:
 

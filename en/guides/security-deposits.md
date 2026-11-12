@@ -37,7 +37,7 @@ The guest enters their card only in Stripe's secure payment form. DeskBoy does n
 
 ## New deposit request
 
-Open the booking in **Bookings** and, in the **Customer** column, press **Damage deposit**. The form opens with the booking already selected; you only enter the amount.
+Open the booking in **Bookings** and, in the **Guest** column, press **Damage deposit**. The form opens with the booking already selected; you only enter the amount.
 
 The request sends nothing by itself: the card form goes out in the next step, from the deposit's details, with **Send by email** or **Copy guest link**. The hold happens only through this DeskBoy form, not through Airbnb, Booking or any other channel.
 

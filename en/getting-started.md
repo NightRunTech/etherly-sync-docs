@@ -101,7 +101,7 @@ If Elorus no longer accepts the API key, the connection card reads “New API ke
     | Field | What it is |
     |-------|------------|
     | **Organization** | The invoicing-provider organization that issues the documents |
-    | **Customer on receipts** | Which Elorus contact receipts are issued to. If you don't set one, they go to "Retail Guest" automatically ([details](/en/guides/properties#customer-on-receipts)) |
+    | **Contact on receipts** | Which Elorus contact receipts are issued to. If you don't set one, they go to "Retail Guest" automatically ([details](/en/guides/properties#contact-on-receipts)) |
     | **Invoice Series / Receipt Series** | Numbering series for invoices and receipts (or "No series") |
     | **ΤΑΚΚ characteristics** | Detached house, floor area, regime — they decide the ΤΑΚΚ tax that goes on the document |
 
